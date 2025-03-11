@@ -2,7 +2,7 @@ const request = require("request");
 
 const URL_PATTERN = {
   chrome:
-    "https://clients2.google.com/service/update2/crx?response=redirect&prodversion=49.0&acceptformat=crx3&x=id%3D[EXTENSION_ID]%26installsource%3Dondemand%26uc",
+    "https://clients2.google.com/service/update2/crx?response=redirect&prodversion=133.0&acceptformat=crx3&x=id%3D[EXTENSION_ID]%26installsource%3Dondemand%26uc",
   edge: "https://edge.microsoft.com/extensionwebstorebase/v1/crx?response=redirect&x=id%3D[EXTENSION_ID]%26installsource%3Dondemand%26uc",
 };
 
